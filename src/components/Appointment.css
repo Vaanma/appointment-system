@@ -1,0 +1,115 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url("https://i.pinimg.com/564x/2b/35/8b/2b358b93696efaf07361e3d6e88685d7.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #333;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: auto;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+/* Container Styles */
+.appointment-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-right: 50px;
+}
+
+.appointment-box {
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #2080b9;
+  margin-bottom: 20px;
+}
+
+/* Form Heading */
+h2 {
+  text-align: center;
+  color: #2080b9;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Input Field Styles */
+.input {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #2080b9;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+input[type="time"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #2080b9;
+  border-radius: 5px;
+}
+
+/* Radio buttons inline */
+.radio-group {
+  margin-bottom: 15px;
+}
+
+.radio-group label,
+.radio-group input {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Button Styles */
+.submit button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2080b9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit button:hover {
+  background-color: #1e3a81;
+}
+/* Add this to your CSS */
+.highlight {
+  border-color: #ff0000; /* Red border to highlight */
+  background-color: #ffe5e5; /* Light red background */
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .appointment-box {
+      width: 90%;
+  }
+}
