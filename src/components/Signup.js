@@ -113,7 +113,7 @@ const styles = {
   heading: {
     marginBottom: '20px',
     textAlign: 'center',
-    color: '#2080b9',
+    color: '#2080b9', // Theme color for the heading
   },
   input: {
     marginBottom: '15px',
@@ -127,20 +127,24 @@ const styles = {
     padding: '10px',
     borderRadius: '5px',
     border: 'none',
-    backgroundColor: '#2080b9',
+    backgroundColor: '#2080b9', // Primary theme color
     color: '#fff',
     fontSize: '16px',
     cursor: 'pointer',
     transition: 'background-color 0.3s',
   },
   buttonHover: {
-    backgroundColor: '#1e3a81',
+    backgroundColor: '#1e3a81', // Darker theme color on hover
   },
   text: {
     textAlign: 'center',
     marginTop: '16px',
     marginBottom: '10px',
     color: '#000',
+  },
+  link: {
+    color: '#2080b9', // Theme color for the link
+    textDecoration: 'none',
   },
 };
 
