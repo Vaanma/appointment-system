@@ -57,8 +57,7 @@
     align-items: center;
 }
 
-.admin-panel-btn {
-    background-color: white;
+.adminpanelbutton {
     color: #2080b9;
     padding: 10px 20px;
     border-radius: 5px;
